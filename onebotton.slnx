@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="onebotton/onebotton.vcxproj" Id="8f5993c0-5dfa-4c78-8634-c97dc7b56eee" />
+</Solution>
