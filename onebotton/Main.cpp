@@ -1,7 +1,8 @@
 #undef UNICODE  // Unicodeではなく、マルチバイト文字を使う
 #define _CRT_SECURE_NO_WARNINGS
 #include <Windows.h>
-#include"Game.h"
+#include "Game.h"
+#include"Game2.h"
 
 // マクロ定義
 #define CLASS_NAME   "DX21Smpl"// ウインドウクラスの名前
@@ -63,7 +64,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_  HINSTANCE hPrevInstance, 
 	UpdateWindow(hWnd);
 
 	//ゲーム初期化
-	Game game;
+	Game2 game;
 	game.Init(hWnd);
 
 	MSG msg;
