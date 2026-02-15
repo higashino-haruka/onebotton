@@ -1,5 +1,9 @@
 #pragma once
 #include <Windows.h>
+#include <cstdlib>
+#include <ctime>
+#include <string>
+#include "Renderer.h"
 
 class Game2
 {

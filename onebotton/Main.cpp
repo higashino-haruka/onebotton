@@ -1,7 +1,7 @@
 #undef UNICODE  // Unicodeではなく、マルチバイト文字を使う
 #define _CRT_SECURE_NO_WARNINGS
 #include <Windows.h>
-#include "Game.h"
+//#include"Game.h"
 #include"Game2.h"
 
 // マクロ定義

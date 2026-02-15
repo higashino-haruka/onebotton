@@ -1,7 +1,4 @@
 #include "Game2.h"
-#include <cstdlib>
-#include <ctime>
-#include <string>
 
 void Game2::Init(HWND hWnd)
 {
