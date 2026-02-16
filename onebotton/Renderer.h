@@ -2,8 +2,8 @@
 #include <d3d11.h>  // DirectX11を使うためのヘッダーファイル
 #include<DirectXMath.h>  //DirectXの数学関数のヘッダーファイル
 
-#define SCREEN_WIDTH (1920)	// ウインドウの幅
-#define SCREEN_HEIGHT (1080)	// ウインドウの高さ
+#define SCREEN_WIDTH (1920)	// ウインドウの幅   テトリスー640
+#define SCREEN_HEIGHT (1080)	// ウインドウの高さ テトリスー480
 
 // 関数のプロトタイプ宣言
 HRESULT RendererInit(HWND hwnd);
