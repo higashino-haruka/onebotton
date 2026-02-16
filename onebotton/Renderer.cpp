@@ -213,7 +213,7 @@ HRESULT RendererInit(HWND hwnd)
 void RendererDrawStart()
 {
 	// 画面塗りつぶし色
-	float clearColor[4] = { 0.5f, 1.0f, 1.0f, 1.0f }; //red,green,blue,alpha
+	float clearColor[4] = { 1.0f, 1.0f, 1.0f, 1.0f }; //red,green,blue,alpha
 
 	// 描画先のキャンバスと使用する深度バッファを指定する
 	g_pDeviceContext->OMSetRenderTargets(1, &g_pRenderTargetView, g_pDepthStencilView);
